@@ -2230,18 +2230,21 @@ section,
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
-.services-2 .post-item {
+.services-2 .post-item,
+.courses .post-item{
   border: 1px solid #D9DFE6;
   transition: 0.3s;
   border-radius: 10px;
 }
 
-.services-2 .post-item .post-img img {
+.services-2 .post-item .post-img img,
+.courses .post-item .post-img img{
   border-radius: 10px 10px 0px 0px;
   transition: 0.5s;
 }
 
-.services-2 .post-item .post-date {
+.services-2 .post-item .post-date,
+.courses .post-item .post-date{
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2252,44 +2255,52 @@ section,
   padding: 6px 12px;
   font-weight: 500;
   border-radius: 5px 0 0 0;
-  
 }
 
-.services-2 .post-item .post-content {
+.services-2 .post-item .post-content,
+.courses .post-item .post-content {
   padding: 30px 20px;
   border-radius: 0px 0px 10px 10px;
 }
 
-.services-2 .post-item .post-title {
+.services-2 .post-item .post-title,
+.courses .post-item .post-title{
   color: #002552;
   font-size: 22px;
   font-weight: 700;
   transition: 0.3s;
 }
 
-.services-2 .post-item .meta i {
+.services-2 .post-item .meta i,
+.courses .post-item .meta i {
   font-size: 16px;
   color: #0059D6;
 }
-.services-2 .post-item .meta {
+.services-2 .post-item .meta,
+.courses .post-item .meta {
   margin-bottom: 10px;
 }
 
-.services-2 .post-item .meta span {
+.services-2 .post-item .meta span,
+.courses .post-item .meta span {
   font-size: 15px;
   color: #002552;
 }
 
-.services-2 .post-item .description {
+.services-2 .post-item .description,
+.courses .post-item .description {
   margin: 0px 0px 10px 0;
 }
 
-.services-2 .post-item hr {
+.services-2 .post-item hr,
+.courses .post-item hr {
   color: grey;
   margin: 10px 0 20px 0 !important;
 }
 
-.services-2 .post-item .readmore {
+.services-2 .post-item .readmore,
+.courses .post-item .readmore
+ {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -2309,20 +2320,27 @@ section,
   width: fit-content;
 }
 
-.services-2 .post-item .readmore i {
+.services-2 .post-item .readmore i,
+.courses .post-item .readmore i {
   line-height: 0;
   margin-left: 6px;
   font-size: 16px;
 }
-.services-2 .post-item:hover {
+
+.services-2 .post-item:hover,
+.courses .post-item:hover {
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
+
 .services-2 .post-item:hover .post-title,
-.services-2 .post-item:hover .readmore {
+.services-2 .post-item:hover .readmore,
+.courses .post-item:hover .post-title,
+.courses .post-item:hover .readmore {
   color: #0059D6;
 }
 
-.services-2 .post-item:hover .post-img img {
+.services-2 .post-item:hover .post-img img,
+.courses .post-item:hover .post-img img {
   transform: scale(1.1);
 }
 
